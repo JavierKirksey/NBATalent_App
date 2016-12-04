@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nba__splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jellybean.nbatalent.NBA_SplashScreen"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/nba_logo"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/textView2"/>
+
+    <TextView
+        android:text="Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="serif-monospace"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:text="Top NBA Talent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView2"
+        android:fontFamily="serif-monospace"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
